@@ -25,6 +25,7 @@
             
         </url>
     
+<<<<<<< HEAD
         <url>
             <loc>http://127.0.0.1:1111/pages/</loc>
             
@@ -40,4 +41,6 @@
             
         </url>
     
+=======
+>>>>>>> 8d5ce7959b7ec0ffffa27aa13a2904e19cfe45f7
 </urlset>
