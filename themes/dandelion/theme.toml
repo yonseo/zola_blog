@@ -7,12 +7,6 @@ demo = "none"
 
 [extra]
 
-<<<<<<< HEAD
-# The theme author info
-[author]
-name = "pohroro"
-homepage = "https://pohroro.com"
-=======
 # The theme author info: you!
 [author]
 name = "pohroro"
@@ -24,4 +18,3 @@ homepage = "https://pohroro.com"
 author =  "pohroro"
 homepage = "https://pohroro.com"
 repo = "https://pohroro.com/"
->>>>>>> 00f80e2a05808de22a38b1081a71f931e88f99d2
