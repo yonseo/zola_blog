@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+
+<!-- single post page -->
+
+{% block content %}
+
+
+<figure style="max-width: 600px;">
+
+  <a href="{{ page.permalink }}"><!-- link to blog post -->
+
+  <figcaption class="username">
+  {{ page.date }}<!-- member username -->
+  </figcaption>
+
+  <img src="/images/screenshot.png" class="responsive"> <!-- member avatar -->
+
+  <figcaption class="name">
+  {{ page.title }} <!-- link to blog post --> <!-- blog title -->
+
+  <div class="position">
+  <i class="fa fa-star-o"></i> <!-- user icon; change "fa fa-user" to "fa fa-star-o" for star icon instead -->
+  </div>
+  </figcaption>
+
+  <figcaption class="description">
+  <p>{{ page.content | safe }}</p><!-- post description -->
+  </figcaption>
+  </a> <!-- end link -->
+</figure>
+
+{% endblock content %}

@@ -1,9 +1,5 @@
 # The URL the site will be built for
-<<<<<<< HEAD
-# base_url = "https://yonseo.github.io/zola_blog"
-=======
 # base_url = "http://localhost"
->>>>>>> cbf2c11ada2725d53d0fe0b7e6051618f0433fb7
 base_url = "127.0.0.1"
 
 # Whether to automatically compile all Sass files in the sass directory
