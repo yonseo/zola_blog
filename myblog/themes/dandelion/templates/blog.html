@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+<!-- Blog list page -->
+{{ section.title }}
+
+{% block content %}
+
+
+{% for page in section.pages %}
+<!-- start of one member; copy and paste or remove section as needed -->
+
+<figure>
+
+  <a href="{{ page.permalink }}"><!-- link to blog post -->
+
+  <figcaption class="username">
+  {{ page.date }}<!-- member username -->
+  </figcaption>
+
+  <img src="/images/screenshot.png" class="responsive"> <!-- member avatar -->
+
+  <figcaption class="name">
+  {{ page.title }} <!-- link to blog post --> <!-- blog title -->
+
+  <div class="position">
+  <i class="fa fa-star-o"></i> <!-- user icon; change "fa fa-user" to "fa fa-star-o" for star icon instead -->
+  </div>
+  </figcaption>
+
+  <figcaption class="description">
+  Insert 2-lined description here. <!-- member description -->
+  </figcaption>
+  </a> <!-- end link -->
+</figure>
+
+<!-- end of one member -->
+{% endfor %}
+{% endblock content %}
