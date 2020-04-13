@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>http://127.0.0.1:1111/</loc>
+            <loc>https://yonseo.github.io/zola_blog/</loc>
             
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/blog/</loc>
+            <loc>https://yonseo.github.io/zola_blog/blog/</loc>
             
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/blog/first/</loc>
+            <loc>https://yonseo.github.io/zola_blog/blog/first/</loc>
             
                 <lastmod>2019-11-27</lastmod>
             
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/blog/second/</loc>
+            <loc>https://yonseo.github.io/zola_blog/blog/second/</loc>
             
                 <lastmod>2019-11-28</lastmod>
             
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/pages/</loc>
+            <loc>https://yonseo.github.io/zola_blog/pages/</loc>
             
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/pages/contact/</loc>
+            <loc>https://yonseo.github.io/zola_blog/pages/contact/</loc>
             
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/portfolio/</loc>
+            <loc>https://yonseo.github.io/zola_blog/portfolio/</loc>
             
         </url>
     
