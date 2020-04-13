@@ -1,0 +1,13 @@
+name = "dandelion"
+description = "A pohroro theme."
+license = ""
+homepage = "https://pohroro.com"
+min_version = "0.4.0"
+demo = "none"
+
+[extra]
+
+# The theme author info
+[author]
+name = "pohroro"
+homepage = "https://pohroro.com"
